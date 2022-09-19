@@ -2,7 +2,6 @@ from schemas.reqres import create, update_put, update_patch
 from utils.sessions import reqres
 from pytest_voluptuous import S
 from resources.information import user
-import allure
 
 
 def test_create():
